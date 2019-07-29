@@ -1,5 +1,5 @@
-const width_of_map = window.innerWidth;
-const height_of_map = Math.round(650*width_of_map/536);
+var width_of_map = window.innerWidth;
+var height_of_map = Math.round(650*width_of_map/536);
 
 
 var canvas = new Konva.Stage({

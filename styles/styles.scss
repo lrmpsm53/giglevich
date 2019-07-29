@@ -11,6 +11,8 @@
 body{
     padding: 0;
     margin:0;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .header{
@@ -19,31 +21,30 @@ body{
 }
 .header__headline{
     margin: 0;
-    margin-top:30vw;
+    margin-top: 650px;
 }
 .header__paragraph{
-    width: 1136px/1920px*100vw;
+    width: 1136px/1920px*100%;
     margin: 0;
     margin: auto auto;
-    margin-top: 44px/1920px*100vw;
+    margin-top: 44px;
 }
 .header__banner{
-    margin-top: 7vw;
+    margin-top: 100px;
     background-image: url('../sources/pictures/banner.jpg'), linear-gradient(to bottom, #ffffff, transparent, #ffffff,);
     background-blend-mode: overlay;
-    margin-bottom: 5vw;
+    margin-bottom: 120px;
 }
 .header__nav{
     padding: {
-        top: 1vw;
-        bottom:1vw;
+        top: 30px;
+        bottom: 30px;
     }
 }
 
 .headline{
     font-weight: normal;
-
-    font-size: 48px/1920px*100vw;
+    font-size: 48px;
     font-family: Play Bold;
 }
 .headline_position_center{
@@ -57,13 +58,13 @@ body{
 .paragraph {
     font-family: Open Sans Condensed Light;
     color: #666666;
-    font-size: 18px/1920px*100vw;
-    line-height: 2vw;
+    font-size: 18px;
+    line-height: 40px;
 }
 
 .banner {
     width: 100%;
-    height: 30vw;
+    height: 400px;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -76,46 +77,46 @@ body{
     background-color: #ffffffe8;
 }
 .nav_fixed{
-    top: 0%;
+    top: 0;
     position: fixed;
     z-index: 3;
 }
 .nav__points{
     color:#656565;
     font-family: Open Sans Condensed Light;
-    font-size: 18px/1920px*100vw;
+    font-size: 18px;
     list-style-type: none;
     padding: 0;
     margin: auto auto;
 }
 .nav__point{
     display: inline;
-    margin: 1vw 1vw;
+    margin: 30px 30px;
 }
 .nav__point_focused:hover{
-    border-bottom: 0.1vw solid #656565;
+    border-bottom: 5px solid #656565;
 }
 
 .about-icon{
-    width: 80%;
+    width: 100%;
 }
 .page__about-icon{
     margin: auto auto;
-    margin-top: 15vw;
+    margin-top: 400px;
 }
 .about-icon__headline{
     font-weight: lighter;
-    font-size: 36px/1920px*100vw;
+    font-size: 36px;
     margin: 0;
-    margin-bottom: 4vw;
+    margin-bottom: 100px;
 
 }
 .about-icon__picture{
-    margin-top: 20vw;
-    width: 570px/1920px*100vw;
+    width: 570px/1920px*100%;
+    min-width: 0;
 }
 .about-icon__text{
-    width: 55%;
+    width: 40%;
     margin: 0;
 }
 .about-icon__paragraph{
@@ -132,7 +133,7 @@ body{
 
 .flex-container{
     display: inline-flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: nowrap;
     align-items: center
 
