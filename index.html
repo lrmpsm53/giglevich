@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>ЖиглевичPROJECT</title>
-        <script src="./libralies/konva/konva.js"></script>
+        <script src="./libralies/konva/konva.min.js"></script>
         <script src="./libralies/react/react.development.js"></script>
         <script src="./libralies/react/react-dom.development.js"></script>
         <script src="./libralies/react/babel.min.js"></script>
@@ -15,7 +15,7 @@
     <body>
         в разработке
     <header class="header">
-        <h1 class="headline headline_position_center header__headline"><span class="red-text"><a name="home">Икона Жиглевича:</span> взгляни на историю</a></h1>
+        <h1 class="headline headline_position_center header__headline headline_font-size_48px"><span class="red-text"><a name="home">Икона Жиглевича:</span> взгляни на историю</a></h1>
         <p class=" paragraph header__paragraph">
             Когда-то у одного неизвестного художника появилась идея: запечатлеть весь свой город 
             во времена его жизни на одном куске холста. У него это появилось. На иконе поместилось 
@@ -27,8 +27,8 @@
         <div class="banner header__banner"></div>
         <nav class="nav header__nav" id="nav">
             <ul class="nav__points">
-                <li class="nav__point nav__point_focused"><a class="link" href="#home">главная</a></li>
-                <li class="nav__point nav__point_focused"><a class="link" href="#about-icon">об иконе</a></li>
+                <li class="nav__point nav__point_focused"><a class="nav__link" href="#home">главная</a></li>
+                <li class="nav__point nav__point_focused"><a class="nav__link" href="#about-icon">об иконе</a></li>
                 <li class="nav__point nav__point_focused">икона</li>
                 <li class="nav__point nav__point_focused">о проекте</li>
             </ul>
@@ -46,9 +46,9 @@
         </script>
     </header>
     <article class="about-icon page__about-icon">
-        <h1 class="headline headline_position_center about-icon__headline">
+        <h2 class="headline headline_position_center about-icon__headline headline_font-size_36px">
                 <a name="about-icon"><span class="red-text">Об иконе:</span> история</a>
-        </h1>
+        </h2>
         <div class="flex-container">
         <img сlass="about-icon__picture" src="map.jpg">
         <div class="about-icon__text">
@@ -117,16 +117,29 @@
         </div>
     </article>
     <article class="map page__map">
-        <h1 class="headline headline_position_center map__headline"><span class="red-text">Икона:</span> Интерактивная карта</h1>
-
+        <h2 class="headline headline_position_center map__headline headline_font-size_36px"><span class="red-text">Икона:</span> Интерактивная карта</h2>
         <div id="root"></div>
-
-            <div id="fullLook">
-        </div>
+        <div id="fullLook"></div>
         <div id="container">
             <script src="./scripts/map.js" defer type="text/javascript"></script>
         </div>
     </article>
-
+    <article class="about-progect page__about-progect">
+        <h2 class="headline headline_font-size_36px headline_position_center"><span class="red-text">О</span> проекте</h2>
+        <p class="paragraph about-project__paragraph">Ресурс был создан в рамках индивидуального проекта.</p>
+        <p class="paragraph about-project__paragraph">Все фотографии, которые были использованы, принадлежат автору проекта.</p>
+        <p class="paragraph about-project__paragraph">Шрифты, библиотеки и т.п. ввзяты из открытых источников и распространяются в рамках opensource.</p>
+        <p class="paragraph about-project__paragraph">В качестве основного источника информации использовался сайт
+        <a class="link" target="blank" href="http://architecture.artyx.ru/books/item/f00/s00/z0000006/st013.shtml">
+        architecture.artyx.ru</a>.</p>
+        <p class="paragraph about-project__paragraph">Отдельно хочу выразить благодарность сввоему другу 
+        <a class="link" target="blank" href="https://vk.com/kmiziz_man">Арсению Кмициицу</a> за помощь в создании проекта.</p>
+    </article>
+    <article class="footer flex-container page__footer">
+        <a class="link" href="https://vk.com/lrmpsm" target="blank">Автор</a>
+        <a class="link" href="mailto:orlov.dmitriy2303@outlook.com" target="blank">Почта автора</a>
+        <a class="link" href="https://github.com/DmitriyOrlov53/giglevich" target="blank">GitHub</a>
+        <span>2019 год</span>
+    </article>
     </body>
 </html>

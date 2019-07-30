@@ -22,13 +22,13 @@ body{
 }
 .header__headline{
     margin: 0;
-    margin-top: 650px;
+    margin-top: 550px;
 }
 .header__paragraph{
     width: 1136px/1920px*100%;
     margin: 0;
     margin: auto auto;
-    margin-top: 44px;
+    margin-top: 144px;
 }
 .header__banner{
     margin-top: 100px;
@@ -38,18 +38,24 @@ body{
 }
 .header__nav{
     padding: {
-        top: 30px;
-        bottom: 30px;
+        top: 20px;
+        bottom: 20px;
     }
 }
 
 .headline{
     font-weight: normal;
-    font-size: 48px;
+    
     font-family: Play Bold;
 }
 .headline_position_center{
     text-align: center;
+}
+.headline_font-size_48px{
+    font-size: 48px;
+}
+.headline_font-size_36px{
+    font-size: 36px;
 }
 
 .red-text{
@@ -91,6 +97,7 @@ body{
     margin: auto auto;
 }
 .nav__point{
+    text-decoration: none;
     display: inline;
     margin: {
         left: 4%;
@@ -98,11 +105,14 @@ body{
     }
 }
 .nav__point_focused:hover{
-    border-bottom: 5px solid #656565;
+    border-bottom: 2px solid #656565;
+}
+.nav__link{
+    all: unset;
 }
 
 .about-icon{
-    width: 80%;
+    width: 90%;
 }
 .page__about-icon{
     margin: auto auto;
@@ -110,7 +120,6 @@ body{
 }
 .about-icon__headline{
     font-weight: lighter;
-    font-size: 36px;
     margin: 0;
     margin-bottom: 100px;
 
@@ -136,7 +145,7 @@ body{
 
 .flex-container{
     display: inline-flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: nowrap;
     align-items: center;
     box-sizing: content-box;
@@ -148,7 +157,6 @@ body{
 .map__headline{
     margin: 0;
     margin-bottom: 300px;
-    font-size: 36px;
 }
 .map__picture{
     position: absolute;
@@ -202,6 +210,8 @@ body{
 
 .link{
     all: unset;
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 .fullLook{
@@ -219,7 +229,13 @@ body{
 
 }
 
+.about-project__paragraph{
+    text-align: center;
+}
 
+.page__about-progect{
+    margin-top: 300px
+}
 
 
 @media screen and (max-width: 1024px) {
@@ -247,14 +263,17 @@ body{
         width: 90%
     }
 }
-@media screen and (max-width: 760px){
-    #container{
-        display: none;
-    }
-    .map::after{
-        content: 'привет';
-        display: block;
 
-        
-    }
+
+.page__footer{
+    margin-top: 600px;
+}
+.footer{
+    width: 100%;
+    background-color: #d63c37;
+    min-height: 100px;
+    font-family: Open Sans Condensed Light;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 40px;
 }
