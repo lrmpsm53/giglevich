@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>ЖиглевичPROJECT</title>
+        <title>Жиглевич</title>
         <script src="./libralies/konva/konva.min.js"></script>
         <script src="./libralies/react/react.development.js"></script>
         <script src="./libralies/react/react-dom.development.js"></script>
@@ -29,8 +29,8 @@
             <ul class="nav__points">
                 <li class="nav__point nav__point_focused"><a class="nav__link" href="#home">главная</a></li>
                 <li class="nav__point nav__point_focused"><a class="nav__link" href="#about-icon">об иконе</a></li>
-                <li class="nav__point nav__point_focused">икона</li>
-                <li class="nav__point nav__point_focused">о проекте</li>
+                <li class="nav__point nav__point_focused"><a class="nav__link" href="#map">икона</a></li>
+                <li class="nav__point nav__point_focused"><a class="nav__link" href="#about-project">о проекте</a></li>
             </ul>
         </nav>
         <script>
@@ -117,6 +117,7 @@
         </div>
     </article>
     <article class="map page__map">
+        <a name="map"></a>
         <h2 class="headline headline_position_center map__headline headline_font-size_36px"><span class="red-text">Икона:</span> Интерактивная карта</h2>
         <div id="root"></div>
         <div id="fullLook"></div>
@@ -124,7 +125,9 @@
             <script src="./scripts/map.js" defer type="text/javascript"></script>
         </div>
     </article>
+
     <article class="about-progect page__about-progect">
+        <a name="about-project"></a>
         <h2 class="headline headline_font-size_36px headline_position_center"><span class="red-text">О</span> проекте</h2>
         <p class="paragraph about-project__paragraph">Ресурс был создан в рамках индивидуального проекта.</p>
         <p class="paragraph about-project__paragraph">Все фотографии, которые были использованы, принадлежат автору проекта.</p>
@@ -135,6 +138,7 @@
         <p class="paragraph about-project__paragraph">Отдельно хочу выразить благодарность сввоему другу 
         <a class="link" target="blank" href="https://vk.com/kmiziz_man">Арсению Кмициицу</a> за помощь в создании проекта.</p>
     </article>
+
     <article class="footer flex-container page__footer">
         <a class="link" href="https://vk.com/lrmpsm" target="blank">Автор</a>
         <a class="link" href="mailto:orlov.dmitriy2303@outlook.com" target="blank">Почта автора</a>
