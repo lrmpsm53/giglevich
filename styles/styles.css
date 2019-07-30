@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: Play Bold;
   src: url("../sources/fonts/Play/Play-Bold.ttf");
@@ -99,7 +100,8 @@ body {
 
 .nav__point {
   display: inline;
-  margin: 30px 30px;
+  margin-left: 4%;
+  margin-right: 4%;
 }
 
 .nav__point_focused:hover {
@@ -107,7 +109,7 @@ body {
 }
 
 .about-icon {
-  width: 100%;
+  width: 80%;
 }
 
 .page__about-icon {
@@ -122,25 +124,24 @@ body {
   margin-bottom: 100px;
 }
 
-.about-icon__picture {
-  width: 29.6875%;
-  min-width: 0;
+.about-icon img {
+  width: 40%;
 }
 
 .about-icon__text {
-  width: 40%;
+  width: 50%;
   margin: 0;
 }
 
 .about-icon__paragraph {
-  width: 100%;
+  width: 80%;
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
   padding: 0;
-  padding-left: 2vw;
-  margin-top: 3vw;
-  margin-bottom: 3vw;
-  border-left: 0.2vw solid #d63c37;
+  padding-left: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-left: 5px solid #d63c37;
 }
 
 .flex-container {
@@ -155,6 +156,8 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
 }
 
 .map {
@@ -163,8 +166,8 @@ body {
 
 .map__headline {
   margin: 0;
-  margin-bottom: 5vw;
-  font-size: 1.875vw;
+  margin-bottom: 300px;
+  font-size: 36px;
 }
 
 .map__picture {
@@ -178,7 +181,7 @@ body {
   margin-top: 12vw;
 }
 
-#root, #fullLook {
+#root {
   position: relative;
 }
 
@@ -226,6 +229,7 @@ body {
 }
 
 .fullLook {
+  position: fixed;
   height: 40vw;
 }
 
@@ -238,5 +242,46 @@ body {
   top: -140%;
   left: 95%;
   width: 5vw;
+}
+
+@media screen and (max-width: 1024px) {
+  .about-icon img {
+    width: 90%;
+    margin-left: 55%;
+    margin-right: 45%;
+  }
+  .flex-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .about-icon__text {
+    width: 95%;
+  }
+  .flex-container {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header__paragraph {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  #container {
+    display: none;
+  }
+  .map::after {
+    content: 'привет';
+    display: block;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
