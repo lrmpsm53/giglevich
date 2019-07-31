@@ -178,19 +178,12 @@ body {
   margin-bottom: 300px;
 }
 
-.map__picture {
-  position: absolute;
-  z-index: 6;
-  -webkit-box-shadow: 50px 50px 50px black;
-          box-shadow: 50px 50px 50px black;
-}
-
 .page__map {
   margin-top: 200px;
   margin-bottom: 600px;
 }
 
-#root {
+#root, #fullLook {
   position: relative;
 }
 
@@ -198,7 +191,7 @@ body {
   position: absolute;
   z-index: 2;
   background-color: #ffffffee;
-  max-height: 40vw;
+  max-height: 500px;
   overflow-y: auto;
 }
 
@@ -225,7 +218,7 @@ body {
 .button {
   outline: none;
   font-family: Open Sans Condensed Light;
-  font-size: 0.9375vw;
+  font-size: 18px;
   background-color: #d63c37;
   color: #ffffff;
   border: none;
@@ -238,18 +231,25 @@ body {
 }
 
 .fullLook {
+  width: 80%;
   position: fixed;
-  height: 40vw;
+  top: 2%;
+  left: 10%;
+  z-index: 10;
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-height: 96%;
+  background-color: #ffffffee;
+  -webkit-box-shadow: 0px 500px 500px 300px black;
+          box-shadow: 0px 500px 500px 300px black;
 }
 
 .fulllook__picture {
   width: 100%;
+  margin-bottom: 20px;
 }
 
 .fullLook__close {
-  position: relative;
-  top: -140%;
-  left: 95%;
   width: 5vw;
 }
 

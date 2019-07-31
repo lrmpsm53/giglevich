@@ -75,17 +75,22 @@ class Big_image extends React.Component{
         this.closeImage = this.closeImage.bind(this);
     }
     closeImage(){
+        document.body.style.overflow = 'auto';
+        document.getElementsByClassName('nav')[0].style.display = 'block';
         ReactDOM.render(
             "",
             fullLookObject
         )
     }
     render(){
+        document.body.style.overflow = 'hidden';
+        document.getElementsByClassName('nav')[0].style.display = 'none';
         return(
         <div className="fullLook map__picture">
             <img className="fulllook__picture" src={this.src}/>
-            <img className="fullLook__close" src="./sources/icons/close.svg" onClick={this.closeImage}/>
+            <button className="button" onClick={this.closeImage}>закрыть</button>
         </div>
+
         )
     }
 }
