@@ -17,7 +17,7 @@ function Card(card_object){
 class Header extends React.Component{
     render(){
         return(
-            <h1 className="headline card__headline">{this.props.header}</h1>
+            <h1 className="headline card__headline headline_font-size_36px">{this.props.header}</h1>
         )
     }
 }

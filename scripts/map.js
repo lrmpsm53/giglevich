@@ -64,26 +64,50 @@ window.onload = function() {
   points_list[i].Y = objects_list[i].y * height_of_map / 650;
 
   points_list[i].on('click', renderCard);
+  points_list[i].on('mouseenter', function(){
+    canvas.container().style.cursor = 'pointer';
+  })
+  points_list[i].on('mouseleave', function(){
+    canvas.container().style.cursor = 'default';
+  })
 
   points_list[i].zIndex(i+1);
   }
 }
 canvas_layer.add(map_objects)
 
-
-function renderCard(event){
+//
+function renderCard(){
+  console.log(this)
   ReactDOM.render(
     Card(this),
     document.getElementById('root')
   )
   var card = document.getElementById('card')
-  card.style.top = (this.Y + 5 * height_of_map / 650) + 'px';
+  position_and_size_of_card(card, this)
+}
+  //
+  function position_and_size_of_card(card, position){
+    card.style.top = (position.Y + 5 * height_of_map / 650) + 'px';
+   if(width_of_map > 1700){
+      card.style.width = '800px';
+    }
+    else{
+      card.style.width = '500px'
+    };
+    var width_of_card = +card.style.width.substring(0, 3)
+    if(width_of_card >= (width_of_map - (position.X + 5 * width_of_map / 536))){
+        card.style.left = ((position.X - 5 * width_of_map / 536) - width_of_card) + 'px';
+    }
+    else{
+      card.style.left = (position.X + 5 * width_of_map / 536) + 'px';
+    }
+  }
+  //
+//
 
-  if(width_of_map*0.3 >= (width_of_map - (this.X + 5 * width_of_map / 536))){
-      card.style.left = ((this.X - 5 * width_of_map / 536) - width_of_map * 0.3) + 'px';
-  }
-  else{
-    card.style.left = (this.X + 5 * width_of_map / 536) + 'px';
-  }
+
+if(width_of_map < 760){
+  document.getElementById('container').style.display = 'none';
 }
 

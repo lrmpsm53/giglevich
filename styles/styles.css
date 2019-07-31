@@ -186,7 +186,8 @@ body {
 }
 
 .page__map {
-  margin-top: 12vw;
+  margin-top: 200px;
+  margin-bottom: 600px;
 }
 
 #root {
@@ -194,7 +195,6 @@ body {
 }
 
 .card {
-  width: 30vw;
   position: absolute;
   z-index: 2;
   background-color: #ffffffee;
@@ -203,24 +203,23 @@ body {
 }
 
 .card__headline {
-  font-size: 1.875vw;
-  margin-left: 1vw;
+  margin-left: 20px;
 }
 
 .card__paragraph {
   margin: 0;
-  margin-left: 1vw;
+  margin-left: 20px;
 }
 
 .card__photo {
-  margin-top: 1vw;
+  margin-top: 40px;
   width: 100%;
   cursor: pointer;
 }
 
 .card__button {
   line-height: normal;
-  margin-top: 1vw;
+  margin-top: 10px;
 }
 
 .button {
@@ -254,12 +253,34 @@ body {
   width: 5vw;
 }
 
+.about-progect {
+  width: 80%;
+}
+
 .about-project__paragraph {
   text-align: center;
 }
 
 .page__about-progect {
-  margin-top: 300px;
+  margin: auto auto;
+}
+
+.page__footer {
+  margin-top: 400px;
+}
+
+.footer {
+  width: 100%;
+  background-color: #d63c37;
+  min-height: 100px;
+  font-family: Open Sans Condensed Light;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.notice {
+  display: none;
 }
 
 @media screen and (max-width: 1024px) {
@@ -293,17 +314,15 @@ body {
   }
 }
 
-.page__footer {
-  margin-top: 600px;
-}
-
-.footer {
-  width: 100%;
-  background-color: #d63c37;
-  min-height: 100px;
-  font-family: Open Sans Condensed Light;
-  color: #ffffff;
-  font-size: 18px;
-  line-height: 40px;
+@media screen and (max-width: 600px) {
+  .map canvas {
+    display: none;
+  }
+  .notice {
+    display: block;
+  }
+  .page__map {
+    margin-bottom: 300px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
