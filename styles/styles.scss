@@ -112,7 +112,7 @@ body{
 }
 
 .about-icon{
-    width: 90%;
+    width: 80%;
 }
 .page__about-icon{
     margin: auto auto;
@@ -128,11 +128,11 @@ body{
     width: 40%;
 }
 .about-icon__text{
-    width: 50%;
+    width: 45%;
     margin: 0;
 }
 .about-icon__paragraph{
-    width: 80%;
+    width: 100%;
     box-sizing: content-box;
     padding: 0;
     padding-left: 20px;
@@ -251,6 +251,11 @@ body{
     color: #ffffff;
     font-size: 18px;
     line-height: 40px;
+}
+.footer__icon{
+    height: 24px;
+    margin-bottom: -7px;
+    margin-right: 3px;
 }
 
 .notice{
