@@ -71,17 +71,11 @@ window.onload = function() {
 }
 canvas_layer.add(map_objects)
 
-//
 function renderCard(){
-  console.log(this)
-  ReactDOM.render(
-    Card(this),
-    document.getElementById('root')
-  )
+  card.
   var card = document.getElementById('card')
   position_and_size_of_card(card, this)
 }
-  //
   function position_and_size_of_card(card, position){
     card.style.top = (position.Y + 5 * height_of_map / 650) + 'px';
    if(width_of_map > 1700){
@@ -98,11 +92,7 @@ function renderCard(){
       card.style.left = (position.X + 5 * width_of_map / 536) + 'px';
     }
   }
-  //
-//
-
-
-if(width_of_map < 760){
+  if(width_of_map < 1024){
   document.getElementById('container').style.display = 'none';
 }
 
