@@ -1,1 +1,1 @@
-# simple intaractive map of the very old Pskov
+# simple interactive map of the very old Pskov
