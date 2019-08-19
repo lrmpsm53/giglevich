@@ -222,6 +222,7 @@ body {
   background-color: #d63c37;
   color: #ffffff;
   border: none;
+  cursor: pointer;
 }
 
 .link {
@@ -287,6 +288,11 @@ body {
 
 .notice {
   display: none;
+  width: 80%;
+}
+
+.map_notice {
+  margin: auto auto;
 }
 
 @media screen and (max-width: 1024px) {
@@ -294,6 +300,12 @@ body {
     width: 90%;
     margin-left: 55%;
     margin-right: 45%;
+  }
+  .notice {
+    display: block;
+  }
+  #container {
+    display: none;
   }
   .flex-container {
     -webkit-box-orient: vertical;
@@ -324,11 +336,17 @@ body {
   .map canvas {
     display: none;
   }
-  .notice {
-    display: block;
-  }
   .page__map {
     margin-bottom: 300px;
   }
+}
+
+.show-enter-active, .show-leave-active {
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
+}
+
+.show-enter, .show-leave-to {
+  opacity: 0;
 }
 /*# sourceMappingURL=styles.css.map */
