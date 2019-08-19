@@ -6,12 +6,11 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="shortcut icon" href="./sources/icons/site_icon.png" type="image/png">
         <title>Жиглевич</title>
-        <script src="./libralies/konva/konva.min.js"></script>
-        <script src="./libralies/react/react.min.js"></script>
-        <script src="./libralies/react/react-dom.min.js"></script>
-        <script src="./libralies/react/babel.min.js"></script>
-        <script async src="./scripts/get_json.js"></script>
-        <script src="./scripts/render-card.js"  defer type="text/babel"></script>
+        <script src="./libralies/konva/konva.js"></script>
+        <script src="./libralies/vue/vue.js"></script>
+        <script async src="./scripts/get_data.js"></script>
+        <script defer src="./scripts/render_map.js"></script>
+        <script defer src="./scripts/render_card_and_big_image.js"></script>
         <link rel="stylesheet" type="text/css" href="./styles/styles.css">
     </head>
     <body>
@@ -172,21 +171,36 @@
         </div>
         </div>
     </article>
+    <a name="map"></a>
     <article class="map page__map">
-        <a name="map"></a>
         <h2 class="headline headline_position_center map__headline headline_font-size_36px">
             <span class="red-text">Икона:</span> Интерактивная карта
         </h2>
-        <p class="paragraph notice">
+        <p class="paragraph notice map_notice">
             Для использования интерактивной карты ваше устройство не подходит.
             Зайдите на этот сайт с устройства с большей диагональю для лучшего просмотра.
             Рекомендуется не менее 10 дюймов.
         </p>
-        <div id="root"></div>
-        <div id="fullLook"></div>
-        <div id="container">
-            <script src="./scripts/map.js" defer type="text/javascript"></script>
+
+        <div id="root">
+            <transition name="show">
+            <card key="key" v-if="render_card" v-bind:position="position">
+                <headline v-bind:text="rendering.headline"></headline>
+                <about head="Район" v-bind:text="rendering.district"></about>
+                <about head="Статус" v-bind:text="rendering.status"></about>
+                <about head="Адрес" v-bind:text="rendering.adress"></about>
+                <photo v-bind:photo="rendering.photo"></photo>
+                <close object="render_card"></close>
+            </card>    
+            </transition>
+            <transition name="show">
+            <fulllook v-if="render_image" v-bind:photo="rendering.photo">
+                <close object="render_image"></close>
+            </fulllook>
+            </transition>
         </div>
+            <div id="container">
+            </div>
     </article>
 
     <article class="about-progect page__about-progect">

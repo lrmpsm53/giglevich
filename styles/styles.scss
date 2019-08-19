@@ -199,6 +199,7 @@ body{
     background-color: #d63c37;
     color: #ffffff;
     border: none;
+    cursor: pointer;
 }
 
 
@@ -260,6 +261,10 @@ body{
 
 .notice{
     display: none;
+    width: 80%;
+}
+.map_notice {
+    margin: auto auto;
 }
 
 
@@ -271,6 +276,12 @@ body{
             left: 55%;
             right: 45%;
         }
+    }
+    .notice{
+        display: block;
+    }
+    #container {
+        display: none;
     }
     .flex-container{
         flex-direction: column;
@@ -294,13 +305,14 @@ body{
     .map canvas{
         display: none;
     }
-    .notice{
-        display: block;
-    }
     .page__map{
         margin-bottom: 300px;
     }
 }
 
-
-
+.show-enter-active, .show-leave-active {
+    transition: opacity .5s;
+  }
+  .show-enter, .show-leave-to {
+    opacity: 0;
+  }
