@@ -1,4 +1,3 @@
-
 [
     {
         "header": "Троицкий собор",
@@ -7,7 +6,7 @@
         "y": 370,
         "status": "сохранилось",
         "adress": "Кремль",
-        "photo": "./sources/fotos/1.jpg"
+        "photo": "./fotos/1.jpg"
     }
     ,
     {
@@ -41,7 +40,7 @@
         "y": 412,
         "status": "восстановлено",
         "adress": "Кремль",
-        "photo": "./sources/fotos/2.jpg"
+        "photo": "./fotos/2.jpg"
     }
     ,
     {
@@ -51,7 +50,7 @@
         "y": 340,
         "status": " сохранилось",
         "adress": "Кремль",
-        "photo": "./sources/fotos/3.jpg"
+        "photo": "./fotos/3.jpg"
     }
     ,
     {
@@ -61,7 +60,7 @@
         "y": 425,
         "status": "восстановлено",
         "adress": "Кремль 7",
-        "photo": "./sources/fotos/4.jpg"
+        "photo": "./fotos/4.jpg"
     }
     ,
     {
@@ -79,7 +78,7 @@
         "y": 433,
         "status": "сохранилось",
         "adress": "Набережная Флотской Славы",
-        "photo": "./sources/fotos/5.jpg"
+        "photo": "./fotos/5.jpg"
     }
     ,
     {
@@ -145,7 +144,7 @@
         "y": 318,
         "status": "сохранилось",
         "adress": "улица Карла Маркса 2",
-        "photo": "./sources/fotos/6.jpg"
+        "photo": "./fotos/6.jpg"
     }
     ,
     {
@@ -171,7 +170,7 @@
         "y": 373,
         "status": "сохранилось",
         "adress": "улица Советская 18",
-        "photo": "./sources/fotos/7.jpg"
+        "photo": "./fotos/7.jpg"
     }
     ,
     {
@@ -189,7 +188,7 @@
         "y": 363,
         "status": "сохранилось",
         "adress": "Октябрьский проспект 5",
-        "photo": "./sources/fotos/8.jpg"
+        "photo": "./fotos/8.jpg"
     }
     ,
     {
@@ -199,7 +198,7 @@
         "y": 410,
         "status": "сохранилось",
         "adress": "улица Профсоюзная 12",
-        "photo": "./sources/fotos/9.jpg"
+        "photo": "./fotos/9.jpg"
     }
     ,
     {
@@ -209,7 +208,7 @@
         "y": 404,
         "status": "сохранилось",
         "adress": "улица оветская 19",
-        "photo": "./sources/fotos/10.jpg"
+        "photo": "./fotos/10.jpg"
     }
     ,
     {
@@ -235,7 +234,7 @@
         "y": 434,
         "status": "восстановлено",
         "adress": "улица Советская 19",
-        "photo": "./sources/fotos/11.jpg"
+        "photo": "./fotos/11.jpg"
     }
     ,
     {
@@ -245,7 +244,7 @@
         "y": 423,
         "status": "восстановлено",
         "adress": "Набережня реки Великой",
-        "photo": "./sources/fotos/12.jpg"
+        "photo": "./fotos/12.jpg"
     }
     ,
     {
@@ -263,7 +262,7 @@
         "y": 175,
         "status": "сохранилось",
         "adress": "улица Кузнецкая",
-        "photo": "./sources/fotos/13.jpg"
+        "photo": "./fotos/13.jpg"
     }
     ,
     {
@@ -273,7 +272,7 @@
         "y": 173,
         "status": "сохранилось",
         "adress": "сквер Павших борцов",
-        "photo": "./sources/fotos/14.jpg"
+        "photo": "./fotos/14.jpg"
     }
     ,
     {
@@ -291,7 +290,7 @@
         "y": 167,
         "status": "восстановлено",
         "adress": "улица Гремячая",
-        "photo": "./sources/fotos/15.jpg"
+        "photo": "./fotos/15.jpg"
     }
     ,
     {
@@ -343,7 +342,7 @@
         "y": 351,
         "status": "сохранилось",
         "adress": "улица Леона Поземского 53",
-        "photo": "./sources/fotos/16.jpg"
+        "photo": "./fotos/16.jpg"
     }
     ,
     {
@@ -353,7 +352,7 @@
         "y": 398,
         "status": "восстановлено",
         "adress": "рядом с улицой Поземского 44",
-        "photo": "./sources/fotos/17.jpg"
+        "photo": "./fotos/17.jpg"
     }
     ,
     {
@@ -363,7 +362,7 @@
         "y": 405,
         "status": "восстановлено",
         "adress": "рядом с Советской набережной",
-        "photo": "./sources/fotos/18.jpg"
+        "photo": "./fotos/18.jpg"
     }
     ,
     {
@@ -373,7 +372,7 @@
         "y": 347,
         "status": "сохранилось",
         "adress": "улица Поземского 53",
-        "photo": "./sources/fotos/19.jpg"
+        "photo": "./fotos/19.jpg"
     }
     ,
     {
@@ -383,7 +382,7 @@
         "y": 330,
         "status": "сохранилось",
         "adress": "улица Набат 4А",
-        "photo": "./sources/fotos/20.jpg"
+        "photo": "./fotos/20.jpg"
     }
     ,
     {
@@ -409,7 +408,7 @@
         "y": 295,
         "status": "сохранилось",
         "adress": "улица Поземского 7",
-        "photo": "./sources/fotos/21.jpg"
+        "photo": "./fotos/21.jpg"
     }
     ,
     {
@@ -419,7 +418,7 @@
         "y": 250,
         "status": "сохранилось",
         "adress": "улица Первомайскаая 27",
-        "photo": "./sources/fotos/22.jpg"
+        "photo": "./fotos/22.jpg"
     }
     ,
     {
@@ -437,7 +436,7 @@
         "y": 252,
         "status": "сохранилось",
         "adress": "улица Герцена 7",
-        "photo": "./sources/fotos/23.jpg"
+        "photo": "./fotos/23.jpg"
     }
     ,
     {
@@ -463,7 +462,7 @@
         "y": 186,
         "status": "сохранилось",
         "adress": "улица Гремячая 7",
-        "photo": "./sources/fotos/24.jpg"
+        "photo": "./fotos/24.jpg"
     }
     ,
     {
@@ -497,7 +496,7 @@
         "district": "Окольный город (Полонище) и Запсковье",
         "status": "сохранилось",
         "adress": "улица Некрасова 35",
-        "photo": "./sources/fotos/25.jpg"
+        "photo": "./fotos/25.jpg"
     }
     ,
     {
@@ -507,7 +506,7 @@
         "y": 230,
         "status": "сохранилось",
         "adress": "улица Карла Маркса 36",
-        "photo": "./sources/fotos/26.jpg"
+        "photo": "./fotos/26.jpg"
     }
     ,
     {
@@ -549,7 +548,7 @@
         "y": 310,
         "status": "сохраниллось",
         "adress": "Октябрьский проспект 9",
-        "photo": "./sources/fotos/27.jpg"
+        "photo": "./fotos/27.jpg"
     }
     ,
     {
@@ -575,7 +574,7 @@
         "y": 405,
         "status": "сохранилось",
         "adress": "улица Георгиевская 1",
-        "photo": "./sources/fotos/28.jpg"
+        "photo": "./fotos/28.jpg"
     }
     ,
     {
@@ -593,7 +592,7 @@
         "district": "Окольный город (Полонище) и Запсковье",
         "status": "восстановлено",
         "adress": "улица Свердлова 1",
-        "photo": "./sources/fotos/29.jpg"
+        "photo": "./fotos/29.jpg"
     }
     ,
     {
@@ -603,7 +602,7 @@
         "y": 298,
         "status": "сохранилось",
         "adress": "улица Советская 100",
-        "photo": "./sources/fotos/30.jpg"
+        "photo": "./fotos/30.jpg"
     }
     ,
     {
@@ -613,7 +612,7 @@
         "y": 207,
         "status": "сохранилось",
         "adress": "улица Плехановский посад 74",
-        "photo": "./sources/fotos/31.jpg"
+        "photo": "./fotos/31.jpg"
     }
     ,
     {
@@ -623,7 +622,7 @@
         "y": 124,
         "status": "сохранилось",
         "adress": "улица плехановскиий посад 14",
-        "photo": "./sources/fotos/32.jpg"
+        "photo": "./fotos/32.jpg"
     }
     ,
     {
@@ -633,7 +632,7 @@
         "y": 115,
         "status": "сохранилось",
         "adress": "улица Любятовская 2",
-        "photo": "./sources/fotos/33.jpg"
+        "photo": "./fotos/33.jpg"
     }
     ,
     {
@@ -643,7 +642,7 @@
         "district": "Завеличье",
         "status": "воссстановлено",
         "adress": "улица Максима Горького 1А",
-        "photo": "./sources/fotos/34.jpg"
+        "photo": "./fotos/34.jpg"
     }
     ,
     {
@@ -661,7 +660,7 @@
         "y": 500,
         "status": "сохранилось",
         "adress": "Рижский проспект 3",
-        "photo": "./sources/fotos/35.jpg"
+        "photo": "./fotos/35.jpg"
 
     }
     ,
@@ -688,7 +687,7 @@
         "y": 508,
         "status": "сохранилось",
         "adress": "Красноармейская набережная 16",
-        "photo": "./sources/fotos/36.jpg"
+        "photo": "./fotos/36.jpg"
     }
     ,
     {
@@ -698,7 +697,7 @@
         "y": 550,
         "status": "сохранилось",
         "adress": "Мирожская набережная 2",
-        "photo": "./sources/fotos/37.jpg"
+        "photo": "./fotos/37.jpg"
         
     }
     ,
@@ -709,7 +708,7 @@
         "y": 545,
         "status": "сохранилось",
         "adress": "Мирожская набережная 2",
-        "photo": "./sources/fotos/38.jpg"
+        "photo": "./fotos/38.jpg"
     }
     ,
     {

@@ -10,9 +10,8 @@ Vue.component('headline', headline)
 import paragraph from './components/paragraph.vue'
 Vue.component ('paragraph', paragraph)
 
-
-
-
+import close_button from './components/close-button.vue'
+Vue.component('close-button', close_button)
 
 Vue.config.productionTip = false
 

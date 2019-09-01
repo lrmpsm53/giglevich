@@ -9,6 +9,9 @@
         <li>
             <router-link to="/map">карта</router-link>
         </li>
+        <li>
+            <router-link to="/about-progect">о проекте</router-link>
+        </li>
     </ul>
 </template>
 
@@ -29,5 +32,7 @@ ul
         &:hover
             border-bottom: 2px solid #656565
         a
+            &.router-link-active 
+                border-bottom: 2px solid #656565
             all: unset
 </style>

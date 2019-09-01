@@ -6,5 +6,5 @@
 
 <style lang="sass" scoped>
     .app__footer
-        margin-top: 400px
+        margin-top: 300px
 </style>
