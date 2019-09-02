@@ -1,13 +1,15 @@
 <template>
+    <transition name="unit">
     <div class="app__about-progect">
         <about-progect></about-progect>
     </div>
+    </transition>
 </template>
 
 <style lang="sass" scoped>
     .app__about-progect
         margin: 
-            top: 300px
+            top: 500px
             left: auto
             right: auto
 </style>

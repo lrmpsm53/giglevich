@@ -14,7 +14,7 @@
     z-index: 10
     overflow-x: hidden
     overflow-y: auto
-    max-height: 96%
+    max-height: 90%
     background-color: #ffffffee
     box-shadow: 0px 500px 500px 300px black
 </style>

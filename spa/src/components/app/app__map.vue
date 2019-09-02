@@ -1,7 +1,9 @@
 <template>
+    <transition name="unit">
     <div class="app__map">
         <v-map></v-map>
     </div>
+    </transition>
 </template>
 
 <style lang="sass" scoped>

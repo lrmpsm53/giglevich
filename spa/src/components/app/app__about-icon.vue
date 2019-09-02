@@ -1,7 +1,9 @@
 <template>
+    <transition name="unit">
     <div>
         <about-icon></about-icon>
     </div>
+    </transition>
 </template>
 
 <style lang="sass" scoped>
