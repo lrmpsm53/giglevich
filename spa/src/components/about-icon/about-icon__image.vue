@@ -1,5 +1,5 @@
 <template>
-    <img class="about-icon__image" src="../../pictures/map.jpg">
+    <img class="about-icon__image" src="../../../public/map.jpg">
 </template>
 
 <style lang="sass" scoped>
@@ -8,6 +8,6 @@
     @media screen and (max-width: 1024px)
         width: 90%
         margin:
-            left: 55%
-            right: 45%
+            left: 53%
+            right: 47%
 </style>

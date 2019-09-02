@@ -1,6 +1,6 @@
 <template>
     <article class="about-project">
-        <headline position="center">
+        <headline position="center" size="36px" h="2">
             <template v-slot:first>О </template>
             <template v-slot:second>проекте</template>
         </headline>
@@ -30,8 +30,8 @@
             right: 10%
         box-sizing: content-box
         text-align: center
-    a
-        all: unset
-        cursor: pointer
-        text-decoration: underline
+        a
+            all: unset
+            cursor: pointer
+            text-decoration: underline
 </style>

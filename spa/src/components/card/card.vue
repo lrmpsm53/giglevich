@@ -35,7 +35,7 @@
     components: {
         'card__photo': card__photo
     },
-    props: ['position', 'rendering', 'card'],
+    props: ['position', 'rendering'],
     methods: {
       left: function(){
         var width = +this.width_of_card().substring(0, 3);

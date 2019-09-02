@@ -12,6 +12,10 @@
     border: none
     cursor: pointer
     margin-top: 10px
+    box-sizing: content-box
+    padding:
+      left: 5px
+      right: 5px
 </style>
 
 <script> 

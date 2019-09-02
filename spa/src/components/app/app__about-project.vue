@@ -13,7 +13,7 @@
 </style>
 
 <script>
-import about_project from '../about-project/about-project.vue'
+import about_project from '../about-project.vue'
 export default {
     components: {
         'about-progect': about_project

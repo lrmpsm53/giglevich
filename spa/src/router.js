@@ -20,3 +20,4 @@ export default new Router({
     {path:'/about-progect', component: app__about_project}
   ]
 })
+
