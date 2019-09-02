@@ -44,8 +44,7 @@ body{
 }
 
 .headline{
-    font-weight: normal;
-    
+    font-weight: normal; 
     font-family: Play Bold;
 }
 .headline_position_center{
@@ -160,8 +159,7 @@ body{
 }
 
 .page__map{
-    margin-top: 200px;
-    margin-bottom: 600px;
+    margin-top: 400px;
 }
 
 #root, #fullLook{
@@ -238,7 +236,11 @@ body{
 }
 
 .page__about-progect{
-    margin: auto auto;
+    margin: {
+        top: 600px;
+        left: auto;
+        right: auto;
+    }
 }
 
 .page__footer{

@@ -179,8 +179,7 @@ body {
 }
 
 .page__map {
-  margin-top: 200px;
-  margin-bottom: 600px;
+  margin-top: 400px;
 }
 
 #root, #fullLook {
@@ -263,7 +262,9 @@ body {
 }
 
 .page__about-progect {
-  margin: auto auto;
+  margin-top: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .page__footer {
