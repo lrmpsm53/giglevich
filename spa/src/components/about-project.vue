@@ -30,6 +30,8 @@
             right: 10%
         box-sizing: content-box
         text-align: center
+        p
+            line-height: 60px
         a
             all: unset
             cursor: pointer

@@ -10,6 +10,7 @@
 
 <style lang="sass" scoped>
     .map_notice
+        text-align: center
         margin: auto auto
         width: 80%
 </style>
