@@ -3,7 +3,7 @@
   "short_name": "spa",
   "icons": [
     {
-      "src": ".favicon.png",
+      "src": "./img/favicon.png",
       "sizes": "32x32",
       "type": "image/png"
     }
@@ -11,5 +11,5 @@
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#000000",
-  "theme_color": "#4DBA87"
+  "theme_color": "#000000"
 }
