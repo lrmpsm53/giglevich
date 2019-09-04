@@ -10,8 +10,8 @@ import app__about_project from './components/app/app__about-project.vue'
 Vue.use(Router)
 
 export default new Router({
-  mode: 'history',
   base: process.env.BASE_URL,
+    mode: 'history',
   routes: [
     {path: '/', component: app__header},
     {path: '/home', component: app__header},
