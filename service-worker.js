@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/giglevich/precache-manifest.7de39bcac5e96f45718ef63e36cb2e87.js"
+  "/giglevich/precache-manifest.b6daa4bd78a90f023ffd804056e53bb2.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "spa"});
