@@ -6,6 +6,7 @@
 
 <style lang="sass" scoped>
     nav
+        user-select: none
         text-align: center
         width: 100%
         background-color: #ffffffe8

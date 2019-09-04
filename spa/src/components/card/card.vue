@@ -1,5 +1,5 @@
 <template>
-    <div class="card" v-bind:style="{width: width_of_card(),left: left(), top: top()}">
+    <div data-scrollbar class="card" v-bind:style="{width: width_of_card(),left: left(), top: top()}">
       <div class="card__text">
         <headline position="left" size="36px" h="1">
           <template v-slot:second>{{rendering.header}}</template>
@@ -31,11 +31,15 @@
   import card__photo from './card__photo.vue'
 
   import store from '../../store.js'
+  import Scrollbar from 'smooth-scrollbar'
   export default {
     components: {
         'card__photo': card__photo
     },
     props: ['position', 'rendering'],
+    mounted(){
+      Scrollbar.initAll({alwaysShowTracks: true})
+    },
     methods: {
       left: function(){
         var width = +this.width_of_card().substring(0, 3);

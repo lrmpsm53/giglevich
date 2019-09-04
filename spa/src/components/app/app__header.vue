@@ -5,7 +5,7 @@
 </template>
 <style lang="sass" scoped>
     header
-        margin-top: 100px
+        margin-top: 350px
 </style>
 
 <script>

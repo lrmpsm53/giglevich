@@ -4,8 +4,12 @@
 
 <style lang="sass" scoped>
 .big-image__photo
-    width: 100%
+    width: 99%
     margin-bottom: 20px
+    padding: 
+        top: .5%
+        left: .5%
+        right: .5%
 </style>
 
 <script>

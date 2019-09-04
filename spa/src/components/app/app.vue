@@ -30,9 +30,9 @@ body
 @keyframes show-toggle-section
   0%
     opacity: 0
-    transform: translateY(300px)
+    transform: translateY(600px)
   75%
-    transform: translateY(-50px)
+    transform: translateY(-100px)
   100%
     opacity: 1
 
@@ -40,17 +40,17 @@ body
   0%
     opacity: 1
   75%
-    transform: translateY(300px)
+    transform: translateY(600px)
   100%
     opacity: 0
-    transform: translateY(-50px)
+    transform: translateY(-100px)
 
 
 .section-enter-to, section-enter-active
-  animation: show-toggle-section 0.5s ease-in
+  animation: show-toggle-section 0.75s ease-in
 
 .section-leave-to, section-leave-active
-  animation: hidden-toggle-section 0.5s ease-in
+  animation: hidden-toggle-section 0.75s ease-in
 
 
 </style>
