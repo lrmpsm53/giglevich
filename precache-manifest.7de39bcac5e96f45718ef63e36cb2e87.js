@@ -12,12 +12,12 @@ self.__precacheManifest = [
     "url": "/giglevich/js/chunk-vendors.eb860e26.js"
   },
   {
-    "revision": "3589bddbe338e444d408f4dbc545ca1e",
-    "url": "/giglevich/fonts/OpenSansCondensed-Light.3589bddb.ttf"
-  },
-  {
     "revision": "24a97beb3c5cd00f70f29ff1dcd1da37",
     "url": "/giglevich/fonts/Play-Bold.24a97beb.ttf"
+  },
+  {
+    "revision": "3589bddbe338e444d408f4dbc545ca1e",
+    "url": "/giglevich/fonts/OpenSansCondensed-Light.3589bddb.ttf"
   },
   {
     "revision": "da492f4ac2b486cc5b25a646382a83cb",
@@ -132,10 +132,6 @@ self.__precacheManifest = [
     "url": "/giglevich/fotos/36.jpg"
   },
   {
-    "revision": "ca716376290aef726b47dd066a039265",
-    "url": "/giglevich/fotos/37.jpg"
-  },
-  {
     "revision": "bfa1aba6f22a642c0c7e116b9aacd64a",
     "url": "/giglevich/fotos/6.jpg"
   },
@@ -148,24 +144,28 @@ self.__precacheManifest = [
     "url": "/giglevich/fotos/8.jpg"
   },
   {
-    "revision": "54ca67904bc6f26ed10575cc04e5092e",
-    "url": "/giglevich/fotos/20.jpg"
-  },
-  {
     "revision": "7260091fa842753f06bd862461107966",
     "url": "/giglevich/fotos/38.jpg"
+  },
+  {
+    "revision": "54ca67904bc6f26ed10575cc04e5092e",
+    "url": "/giglevich/fotos/20.jpg"
   },
   {
     "revision": "6ab6d6eb12215e3a4d38b08a6c682ecd",
     "url": "/giglevich/fotos/21.jpg"
   },
   {
+    "revision": "176f0963116e7dfc083a5c6b0b03399d",
+    "url": "/giglevich/fotos/25.jpg"
+  },
+  {
     "revision": "7c6f4573fcf849f113e38cfb4d615910",
     "url": "/giglevich/fotos/26.jpg"
   },
   {
-    "revision": "176f0963116e7dfc083a5c6b0b03399d",
-    "url": "/giglevich/fotos/25.jpg"
+    "revision": "ba13aa8bdd14292d16e4ae7cd4cc6b45",
+    "url": "/giglevich/fotos/5.jpg"
   },
   {
     "revision": "06861be9d3e9931d4cf1094c5cd8a41e",
@@ -188,8 +188,8 @@ self.__precacheManifest = [
     "url": "/giglevich/fotos/32.jpg"
   },
   {
-    "revision": "ba13aa8bdd14292d16e4ae7cd4cc6b45",
-    "url": "/giglevich/fotos/5.jpg"
+    "revision": "ca716376290aef726b47dd066a039265",
+    "url": "/giglevich/fotos/37.jpg"
   },
   {
     "revision": "eb524ffb4f8f9229c280820334b4799d",
