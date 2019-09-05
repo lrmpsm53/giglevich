@@ -8,7 +8,7 @@
 
 <style lang="sass" scoped>
      .app__map
-        margin-top: 350px;
+        margin-top: 300px;
 </style>
 
 <script>

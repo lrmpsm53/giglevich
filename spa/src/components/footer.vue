@@ -29,7 +29,7 @@
     font-family: Open Sans Condensed Light
     color: #ffffff
     font-size: 18px
-    line-height: 40px
+    line-height: normal
     @media screen and (max-width: 1024px)
         align-items: center
         justify-content: center

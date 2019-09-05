@@ -8,7 +8,7 @@
 
 <style lang="sass" scoped>
 div
-    margin-top: 350px
+    margin-top: 300px
     width: 100%
 
 </style>

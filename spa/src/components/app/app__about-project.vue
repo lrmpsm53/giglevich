@@ -9,7 +9,7 @@
 <style lang="sass" scoped>
     .app__about-progect
         margin: 
-            top: 350px
+            top: 300px
             left: auto
             right: auto
 </style>

@@ -32,18 +32,18 @@ body
     opacity: 0
     transform: translateY(600px)
   75%
-    transform: translateY(-100px)
+
   100%
     opacity: 1
 
 @keyframes hidden-toggle-section
   0%
     opacity: 1
-  75%
-    transform: translateY(600px)
+  50%
+    transform: translateY(-100px)
   100%
     opacity: 0
-    transform: translateY(-100px)
+    transform: translateY(600px)
 
 
 .section-enter-to, section-enter-active
