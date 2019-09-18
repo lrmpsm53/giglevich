@@ -12,7 +12,7 @@
             <img class="footer__icon" src="../icons/github-logo.png">
             GitHub
         </a>
-        <span>2019 год</span>
+        <span><b>2019 год</b></span>
     </footer>
 </template>
 

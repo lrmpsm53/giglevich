@@ -19,6 +19,7 @@
     z-index: 2
     background-color: #ffffffee
     max-height: 500px
+    overflow-x: hidden
     overflow-y: auto
 .card__text
   padding-left: 20px
@@ -38,7 +39,7 @@
     },
     props: ['position', 'rendering'],
     mounted(){
-      Scrollbar.initAll({alwaysShowTracks: true})
+      Scrollbar.initAll({alwaysShowTracks: true});
     },
     methods: {
       left: function(){

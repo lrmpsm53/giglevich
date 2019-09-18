@@ -3,10 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "dist": "build --tasks win-x86, win-x64, linux-x64",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
+  "main": "http://localhost:8080",
   "dependencies": {
     "core-js": "^2.6.5",
     "register-service-worker": "^1.6.2",

@@ -59,6 +59,7 @@ body
   import nav from '../nav/nav.vue'
   import footer from '../footer.vue'
   import app__footer from './app__footer.vue'
+
   export default {
     components: {
       'v-nav': nav,

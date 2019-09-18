@@ -1,6 +1,7 @@
 <template>
     <section id="root">
-        <card v-if="render_card" 
+        <card
+        v-if="render_card" 
         v-bind:rendering="rendering" 
         v-bind:position="position"
         v-bind:card="render_card">
@@ -62,31 +63,31 @@ export default {
         }
     },
     mounted() {
-        var renderCard = this.renderCard
+        var renderCard = this.renderCard;
+        var width_of_map = window.innerWidth;
+        var height_of_map = Math.round(650*width_of_map/536);
 
-        var width_of_map = window.innerWidth
-        var height_of_map = Math.round(650*width_of_map/536)
 
         var map_image = new Image();
         map_image.src = './map.jpg';
+        map_image.decoding = 'async'
         var map_background = new Konva.Image({
             image: map_image,
             width: width_of_map,
             height: height_of_map,
             x: 0,
             y: 0
-        })
+        });
 
         var canvas = new Konva.Stage({
             width: width_of_map,
             height: height_of_map,
             container: 'container'
-        })
-        canvas.container().style.position = 'static'
+        });
+        canvas.container().style.position = 'static';
 
         var canvas_layer = new Konva.Layer();
         canvas.add(canvas_layer)
-
         var map_objects = new Konva.Group({
             width: width_of_map,
             height: height_of_map

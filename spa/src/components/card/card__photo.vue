@@ -1,4 +1,4 @@
-<template>
+<template >
     <img v-if="photo" v-bind:src="photo" v-on:click="show_big_image" class="card__photo">
 </template>
 
