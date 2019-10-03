@@ -2,7 +2,10 @@
     <section class="about-project__sources">  
         <headline size="24px" h="2">
             <template v-slot:second>Источники</template>
-        </headline>          
+        </headline>       
+        <paragraph>   
+            Окулич-Казарин Н. Спутник по древнему Пскову. Псков, 1913. Рис. 11.
+        </paragraph>
         <paragraph>
             И. К. Лабутина. Историческая топография Пскова в ⅩⅣ - ⅩⅤ веках/
             И.К. Лабутина;Ин-т археологии РАН. – М.: Наука, 2011.
@@ -30,7 +33,7 @@
         @media screen and (max-width: 767px)
             width: 80%
         p
-            margin-bottom: 20px
+            margin-bottom: 10px
             &:last-child
                 margin: 0
 </style>
