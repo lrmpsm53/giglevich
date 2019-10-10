@@ -1,11 +1,13 @@
 <template>
     <section id="root">
+        <transition name="animate_card">
         <card
         v-if="render_card" 
         v-bind:rendering="rendering" 
         v-bind:position="position"
         v-bind:card="render_card">
         </card>
+        </transition>
         <big-image v-if="render_image" v-bind:photo="rendering.photo"></big-image>
         <div id="container"></div>
     </section>
@@ -14,6 +16,20 @@
 <style lang="sass" scoped>
     #root
         position: relative
+    
+    .animate_card-enter
+        opacity: 0
+    .animate_card-enter-to
+        opacity: 1
+        transition-property: opacity
+        transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1)
+        transition-duration: .5s
+    .animate_card-leave-active
+        opacity: 0
+        transition-property: opacity
+        transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1)
+        transition-duration: .5s
+    
 </style>
 
 <script>

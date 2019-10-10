@@ -8,7 +8,7 @@
         <paragraph><b>Статус:</b> {{rendering.status}}</paragraph>
         <paragraph v-if="rendering.adress"><b>Адрес:</b> {{rendering.adress}}</paragraph>
       </div>
-      <card__photo v-if="rendering.photo" v-bind:photo="rendering.photo"></card__photo>
+      <card__photo v-bind:photo="rendering.photo"></card__photo>
       <close-button object="render_card"></close-button>
     </div>
 </template>
@@ -21,6 +21,9 @@
     max-height: 500px
     overflow-x: hidden
     overflow-y: auto
+    transition-property: top, left
+    transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55)
+    transition-duration: .5s
 .card__text
   padding-left: 20px
 </style>
